@@ -29,3 +29,8 @@ jobs:
           git add kr_live.m3u update.log
           git diff --staged --quiet || git commit -m "auto-update: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+      
+      - name: Purge jsDelivr CDN cache
+        if: always()
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/122566/kr-iptv@main/kr_live.m3u" > /dev/null 2>&1 || true
