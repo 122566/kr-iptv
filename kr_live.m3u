@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-06-13 03:42:46 UTC
-# Channels: 57
+# Updated: 2026-06-13 07:49:11 UTC
+# Channels: 56
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-logo="https://www.abn.co.kr/resources/images/logo.png" group-title="General",ABN TV (720p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -211,16 +211,16 @@ http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playli
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 tvg-id="HLCGDTV.kr@SD" tvg-logo="https://i.imgur.com/ABdmZMc.png" group-title="General",SBS G1 (360p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="HLKJDTV.kr@SD" tvg-logo="https://i.imgur.com/iAz0Psw.png" group-title="General",SBS JIBS (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://123.140.197.22/stream/1/play.m3u8
-#EXTINF:-1 tvg-id="HLDQDTV.kr@SD" tvg-logo="https://i.imgur.com/byss0Ld.png" group-title="General",SBS JTV (406p) [Not 24/7]
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="HLDHDTV.kr@SD" tvg-logo="https://i.imgur.com/Srsw4Mi.png" group-title="General",SBS KBC (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -262,11 +262,6 @@ https://liveout.catenoid.net/live-05-wshopping/wshopping_1500k/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8
-#EXTINF:-1 tvg-id="KoreanCentralTelevision.kp@HD" tvg-logo="https://i.imgur.com/p02AEOF.png" group-title="General",Korean Central Television (KCTV) (1080i) [Not 24/7]
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://tv.intchoson.com/kctv/index.m3u8
 #EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Music",KpopTV Play (576p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
