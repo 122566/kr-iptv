@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-06-14 22:11:43 UTC
-# Channels: 56
+# Updated: 2026-06-15 00:10:36 UTC
+# Channels: 57
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-logo="https://www.abn.co.kr/resources/images/logo.png" group-title="General",ABN TV (720p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -282,3 +282,8 @@ https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da9
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://korhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RTBAneka.bn@SD" tvg-logo="https://i.imgur.com/MY40GrC.png" group-title="General",RTB Aneka (720p)
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
