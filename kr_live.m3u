@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-07-10 23:59:29 UTC
-# Channels: 57
+# Updated: 2026-07-11 02:53:01 UTC
+# Channels: 58
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-logo="https://www.abn.co.kr/resources/images/logo.png" group-title="General",ABN TV (720p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -146,6 +146,11 @@ https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
+#EXTINF:-1 tvg-id="HLANDTV.kr@SD" tvg-logo="https://i.imgur.com/lthyx2P.png" group-title="General",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="HLAODTV.kr@SD" tvg-logo="https://i.imgur.com/uR0gScb.png" group-title="General",MBC Chungbuk (MBC 충북) (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
