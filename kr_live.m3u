@@ -1,5 +1,5 @@
 #EXTM3U
-# Updated: 2026-08-21 13:46:13 UTC
+# Updated: 2026-08-21 14:36:37 UTC
 # Channels: 59
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-logo="https://www.abn.co.kr/resources/images/logo.png" group-title="General",ABN TV (720p)
 #EXTVLCOPT:network-caching=10000
@@ -166,6 +166,11 @@ https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-id="HLAJDTV.kr@SD" tvg-logo="https://i.imgur.com/JM4rxGU.png" group-title="General",MBC Jeju (제주 MBC) (352p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
 #EXTINF:-1 tvg-id="HLAMDTV.kr@SD" tvg-logo="https://i.imgur.com/5oraHc0.png" group-title="General",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -279,11 +284,6 @@ https://stream8.cinerama.uz/1448/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://kctv.koryofront.org/stream/index.m3u8
-#EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Music",KpopTV Play (576p)
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="LLBNTVKorean.us@SD" tvg-logo="https://i.imgur.com/WsOfy19.png" group-title="Religious",Lighting Lives Blessing Nations TV Korean (LLBN) (480p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
