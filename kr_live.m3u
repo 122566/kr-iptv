@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-09-11 08:38:40 UTC
-# Channels: 59
+# Updated: 2026-09-11 13:18:27 UTC
+# Channels: 62
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-logo="https://www.abn.co.kr/resources/images/logo.png" group-title="General",ABN TV (720p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -161,6 +161,11 @@ https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="HLCTDTV.kr@SD" tvg-logo="https://i.imgur.com/LlYQR8m.png" group-title="General",MBC Daegu (대구 MBC) (480p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
 #EXTINF:-1 tvg-id="HLCQDTV.kr@SD" tvg-logo="https://i.imgur.com/HCbvAiM.png" group-title="General",MBC Daejeon (대전 MBC) (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -171,16 +176,16 @@ https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
-#EXTINF:-1 tvg-id="HLAJDTV.kr@SD" tvg-logo="https://i.imgur.com/JM4rxGU.png" group-title="General",MBC Jeju (제주 MBC) (352p) [Not 24/7]
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
 #EXTINF:-1 tvg-id="HLAMDTV.kr@SD" tvg-logo="https://i.imgur.com/5oraHc0.png" group-title="General",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HLATDTV.kr@SD" tvg-logo="https://i.imgur.com/3VSuYsn.png" group-title="General",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalAssemblyTV.kr@SD" tvg-logo="https://i.imgur.com/UKdB8vD.png" group-title="Legislative",National Assembly TV (720p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -211,11 +216,26 @@ http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playli
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 tvg-id="HLCGDTV.kr@SD" tvg-logo="https://i.imgur.com/ABdmZMc.png" group-title="General",SBS G1 (360p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="HLKJDTV.kr@SD" tvg-logo="https://i.imgur.com/iAz0Psw.png" group-title="General",SBS JIBS (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://123.140.197.22/stream/1/play.m3u8
+#EXTINF:-1 tvg-id="HLDQDTV.kr@SD" tvg-logo="https://i.imgur.com/byss0Ld.png" group-title="General",SBS JTV (406p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="HLDHDTV.kr@SD" tvg-logo="https://i.imgur.com/Srsw4Mi.png" group-title="General",SBS KBC (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HLDPDTV.kr@SD" tvg-logo="https://i.imgur.com/BBCoqIf.png" group-title="General",SBS UBC (540p) [Not 24/7]
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
@@ -278,11 +298,6 @@ https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://brightstar-korean-pull-secure.akamaized.net/brightstarkorean/stream.m3u8
-#EXTINF:-1 tvg-id="MBCAmerica.us@SD" tvg-logo="https://i.imgur.com/RRc23ra.png" group-title="Culture;Entertainment;Music",MBC America (1080p)
-#EXTVLCOPT:network-caching=10000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 #EXTINF:-1 tvg-id="PersianaKorea.fr@SD" tvg-logo="https://i.imgur.com/si2ZnIA.png" group-title="Movies",Persiana Korea
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
